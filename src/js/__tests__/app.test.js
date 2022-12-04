@@ -19,7 +19,7 @@ test('add member', () => {
   expect(received).toEqual(expected);
 });
 
-test("re-adding a member", () => {
+test('re-adding a member', () => {
   team1.add(member1);
   expect(() => team1.add(member1)).toThrow();
 });
@@ -31,7 +31,7 @@ test('add members list', () => {
     { name: 'Tolik' },
     { name: 'Valera' },
     { name: 'Feya' },
-    { name: 'Zombie'}
+    { name: 'Zombie' },
   ];
   expect(received).toEqual(expected);
 });

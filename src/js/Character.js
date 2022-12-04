@@ -1,5 +1,5 @@
 export default class Character {
-    constructor(name) {
-        this.name = name;
-    }
+  constructor(name) {
+    this.name = name;
+  }
 }
