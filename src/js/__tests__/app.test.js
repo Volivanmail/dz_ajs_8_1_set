@@ -20,7 +20,6 @@ test('add member', () => {
 });
 
 test('re-adding a member', () => {
-  team1.add(member1);
   expect(() => team1.add(member1)).toThrow();
 });
 
